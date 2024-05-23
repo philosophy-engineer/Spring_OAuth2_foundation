@@ -112,3 +112,7 @@ target
 secrets.yml
 .git-hooks/
 
+
+# CUSTOM (MY)
+application-oauth.yml
+
