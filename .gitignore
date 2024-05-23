@@ -1,0 +1,114 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+# Miscellaneous
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+build.sh
+integration-repo
+ivy-cache
+argfile*
+activemq-data/
+classes/
+
+# Log files
+jxl.log
+jmx.log
+derby.log
+
+# Gradle artifacts
+.gradletasknamecache
+/build
+buildSrc/build
+/spring-*/build
+/framework-*/build
+/integration-tests/build
+/src/asciidoc/build
+spring-test/test-output/
+
+# Maven artifacts
+pom.xml
+/target/
+
+# Eclipse artifacts, including WTP generated manifests
+bin
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+out
+test-output
+atlassian-ide-plugin.xml
+
+# VS Code
+
+cached-antora-playbook.yml
+
+node_modules
+
+*#
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.attach_pid*
+.metadata
+.recommenders
+.vscode
+/code
+MANIFEST.MF
+_site/
+activemq-data
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+target
+.flattened-pom.xml
+secrets.yml
+.git-hooks/
+
