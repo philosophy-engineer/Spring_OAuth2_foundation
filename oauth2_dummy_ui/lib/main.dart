@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         future: storage.read(key: 'jwt_token'),
         builder: (BuildContext context, AsyncSnapshot<String?> snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Scaffold(body: Center(child: CircularProgressIndicator()));
+            return const Scaffold(body: Center(child: CircularProgressIndicator()));
           } else {
             if (snapshot.hasData && snapshot.data != null) {
               return LoginSuccessPage(storage: storage);
